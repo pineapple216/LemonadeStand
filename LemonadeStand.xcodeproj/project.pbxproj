@@ -13,6 +13,7 @@
 		5D04BC3A1A0F87B1001699DB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D04BC391A0F87B1001699DB /* Images.xcassets */; };
 		5D04BC3D1A0F87B1001699DB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D04BC3B1A0F87B1001699DB /* LaunchScreen.xib */; };
 		5D04BC491A0F87B1001699DB /* LemonadeStandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D04BC481A0F87B1001699DB /* LemonadeStandTests.swift */; };
+		5D7F39171A0F9E8B00881D73 /* Supplies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D7F39161A0F9E8B00881D73 /* Supplies.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		5D04BC421A0F87B1001699DB /* LemonadeStandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LemonadeStandTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D04BC471A0F87B1001699DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5D04BC481A0F87B1001699DB /* LemonadeStandTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LemonadeStandTests.swift; sourceTree = "<group>"; };
+		5D7F39161A0F9E8B00881D73 /* Supplies.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Supplies.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				5D04BC321A0F87B1001699DB /* AppDelegate.swift */,
 				5D04BC341A0F87B1001699DB /* ViewController.swift */,
+				5D7F39161A0F9E8B00881D73 /* Supplies.swift */,
 				5D04BC361A0F87B1001699DB /* Main.storyboard */,
 				5D04BC391A0F87B1001699DB /* Images.xcassets */,
 				5D04BC3B1A0F87B1001699DB /* LaunchScreen.xib */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D04BC351A0F87B1001699DB /* ViewController.swift in Sources */,
+				5D7F39171A0F9E8B00881D73 /* Supplies.swift in Sources */,
 				5D04BC331A0F87B1001699DB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,6 +411,7 @@
 				5D04BC4E1A0F87B1001699DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5D04BC4F1A0F87B1001699DB /* Build configuration list for PBXNativeTarget "LemonadeStandTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +420,7 @@
 				5D04BC511A0F87B1001699DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

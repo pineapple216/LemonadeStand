@@ -13,7 +13,7 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You have:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sqs-bH-LEj">
@@ -86,14 +86,9 @@
                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="19"/>
                                     <rect key="frame" x="157" y="145" width="34" height="20"/>
                                 </variation>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CdZ-sS-PWw">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="+"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="19"/>
-                                    <rect key="frame" x="157" y="174" width="34" height="20"/>
-                                </variation>
+                                <connections>
+                                    <action selector="purchaseLemonsButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Co1-vQ-Plk"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="riK-pH-FWC">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -102,6 +97,20 @@
                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="19"/>
                                     <rect key="frame" x="233" y="142" width="32" height="25"/>
                                 </variation>
+                                <connections>
+                                    <action selector="unpurchaseLemonsButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1fr-d1-7dD"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CdZ-sS-PWw">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="+"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="19"/>
+                                    <rect key="frame" x="157" y="174" width="34" height="20"/>
+                                </variation>
+                                <connections>
+                                    <action selector="purchaseIceCubesButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tIq-qv-SCp"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gY3-Jb-GU2">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -110,6 +119,9 @@
                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="19"/>
                                     <rect key="frame" x="238" y="176" width="22" height="16"/>
                                 </variation>
+                                <connections>
+                                    <action selector="unpurchaseIceCubesButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="e9T-2t-103"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iDE-Tn-ecY">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -172,14 +184,9 @@
                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="19"/>
                                     <rect key="frame" x="167" y="305" width="25" height="20"/>
                                 </variation>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OeX-1p-7Zu">
-                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
-                                <state key="normal" title="+"/>
-                                <variation key="widthClass=compact" fixedFrame="YES">
-                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="19"/>
-                                    <rect key="frame" x="167" y="334" width="25" height="20"/>
-                                </variation>
+                                <connections>
+                                    <action selector="addLemonsButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MPF-NZ-DBX"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XIe-nG-O1d">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -188,6 +195,20 @@
                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="19"/>
                                     <rect key="frame" x="235" y="305" width="25" height="20"/>
                                 </variation>
+                                <connections>
+                                    <action selector="removeLemonsButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aEE-cX-EGw"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OeX-1p-7Zu">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <state key="normal" title="+"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="19"/>
+                                    <rect key="frame" x="167" y="334" width="25" height="20"/>
+                                </variation>
+                                <connections>
+                                    <action selector="addIceCubesButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="MQm-Ri-ETN"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xTF-UD-pRn">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
@@ -196,6 +217,9 @@
                                     <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="19"/>
                                     <rect key="frame" x="235" y="334" width="25" height="20"/>
                                 </variation>
+                                <connections>
+                                    <action selector="removeIceCubesButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RYL-i2-jal"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mkc-dg-Aga">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
@@ -218,7 +242,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Step 3: Start selling your brew" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wdb-W2-wsO">
                                 <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="16" y="364" width="231" height="21"/>
@@ -243,6 +267,9 @@
                                 <variation key="widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="115" y="481" width="91" height="51"/>
                                 </variation>
+                                <connections>
+                                    <action selector="startDayButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wea-aA-skT"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -256,8 +283,8 @@
                                 <exclude reference="wuz-Xz-KRT"/>
                                 <exclude reference="tL6-Il-bpz"/>
                                 <exclude reference="fp2-9P-7Ja"/>
-                                <exclude reference="CdZ-sS-PWw"/>
                                 <exclude reference="riK-pH-FWC"/>
+                                <exclude reference="CdZ-sS-PWw"/>
                                 <exclude reference="gY3-Jb-GU2"/>
                                 <exclude reference="iDE-Tn-ecY"/>
                                 <exclude reference="cLm-sX-wyT"/>
@@ -266,8 +293,8 @@
                                 <exclude reference="QBS-9S-Mya"/>
                                 <exclude reference="u8H-P1-R9Q"/>
                                 <exclude reference="e5Z-hb-0wO"/>
-                                <exclude reference="OeX-1p-7Zu"/>
                                 <exclude reference="XIe-nG-O1d"/>
+                                <exclude reference="OeX-1p-7Zu"/>
                                 <exclude reference="xTF-UD-pRn"/>
                                 <exclude reference="Mkc-dg-Aga"/>
                                 <exclude reference="mru-mI-dNw"/>
@@ -286,8 +313,8 @@
                                 <include reference="wuz-Xz-KRT"/>
                                 <include reference="tL6-Il-bpz"/>
                                 <include reference="fp2-9P-7Ja"/>
-                                <include reference="CdZ-sS-PWw"/>
                                 <include reference="riK-pH-FWC"/>
+                                <include reference="CdZ-sS-PWw"/>
                                 <include reference="gY3-Jb-GU2"/>
                                 <include reference="iDE-Tn-ecY"/>
                                 <include reference="cLm-sX-wyT"/>
@@ -296,8 +323,8 @@
                                 <include reference="QBS-9S-Mya"/>
                                 <include reference="u8H-P1-R9Q"/>
                                 <include reference="e5Z-hb-0wO"/>
-                                <include reference="OeX-1p-7Zu"/>
                                 <include reference="XIe-nG-O1d"/>
+                                <include reference="OeX-1p-7Zu"/>
                                 <include reference="xTF-UD-pRn"/>
                                 <include reference="Mkc-dg-Aga"/>
                                 <include reference="mru-mI-dNw"/>
@@ -309,6 +336,13 @@
                     </view>
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics"/>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="addedIceCubesLabel" destination="mru-mI-dNw" id="UNt-ns-TTE"/>
+                        <outlet property="addedLemonsLabel" destination="Mkc-dg-Aga" id="t0f-Q3-z4z"/>
+                        <outlet property="fundsLabel" destination="bBc-Jb-W0y" id="HSF-VQ-juU"/>
+                        <outlet property="iceCubesLabel" destination="kVj-1p-rWz" id="qEh-O9-cfF"/>
+                        <outlet property="lemonsLabel" destination="Lh7-qm-Jqu" id="kKP-bF-5T6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

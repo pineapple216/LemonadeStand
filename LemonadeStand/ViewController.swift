@@ -17,6 +17,16 @@ class ViewController: UIViewController {
     @IBOutlet weak var addedLemonsLabel: UILabel!
     @IBOutlet weak var addedIceCubesLabel: UILabel!
     
+    // Instantiate the supplies and prices structs
+    var supplies = Supplies(aMoney: 10, aLemons: 1, aiceCubes: 1)
+    var prices = Prices()
+    
+    // Variables to keep track of the amount of lemons and iceCubes the user purchased and wants to add to the lemonade
+    var lemonsToPurchase = 0
+    var iceCubesToPurchase = 0
+    
+    var lemonsToMix = 0
+    var iceCubesToMix = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()

@@ -341,7 +341,9 @@
                         <outlet property="addedLemonsLabel" destination="Mkc-dg-Aga" id="t0f-Q3-z4z"/>
                         <outlet property="fundsLabel" destination="bBc-Jb-W0y" id="HSF-VQ-juU"/>
                         <outlet property="iceCubesLabel" destination="kVj-1p-rWz" id="qEh-O9-cfF"/>
+                        <outlet property="iceCubesToPurchaseLabel" destination="cLm-sX-wyT" id="gL3-WQ-kW1"/>
                         <outlet property="lemonsLabel" destination="Lh7-qm-Jqu" id="kKP-bF-5T6"/>
+                        <outlet property="lemonsToPurchaseLabel" destination="iDE-Tn-ecY" id="zqr-Xm-SlB"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
